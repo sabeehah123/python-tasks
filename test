@@ -1,0 +1,14 @@
+mylist=[1,2,3,4,5]
+mytuple=(1,2,3,4,5)
+for number in mylist:
+    print("Number: ", number)
+mydictionary={1: "sabeehah", 2: "ahmed"}
+
+
+
+for number in mytuple:
+    print("Number: ", number)
+
+for value,keys in mydictionary.items():
+     print(value)
+     print(keys)
